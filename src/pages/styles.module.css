@@ -1,0 +1,50 @@
+.title {
+  font-size: 35px;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user,
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  font-weight: bold;
+  width: 20%;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  display: block;
+
+  font-size: 18px;
+  width: fit-content;
+  margin-top: 15px;
+  padding: 5px 10px;
+
+  background-color: #007bff;
+  color: white;
+
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #489efa;
+}
+
